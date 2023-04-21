@@ -5,10 +5,10 @@ import { Stylolite } from "./Stylolite"
 const map_: Map<string, any> = new Map()
 
 /**
- * @brief A factory of IData.
- *
+ * @brief A factory of IData
  * @note All methods are static => similar to a namespace (see math.ts for
- * a namesoace example).
+ * an example)
+ * @category Data
  */
 export class Factory {
 

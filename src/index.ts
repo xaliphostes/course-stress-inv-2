@@ -1,6 +1,7 @@
 export * from './Factory'
 export * from './Joint'
 export * from './MonteCarlo'
+export * from './Grid'
 export * from './RemoteStress'
 export * from './Stylolite'
 export * from './utils'

@@ -1,13 +1,20 @@
 import { Solution, Stress, Vector } from './types'
 
-// Signature of a data
+/**
+ * @brief Signature of a data
+ * @category Data
+ */
 export interface IData {
     normal(): Vector
     cost(stress: Stress): number
 }
 
-// Signature of a stress inversion method
+/**
+ * @brief Signature of a stress inversion method
+ * @category Inversion
+ */
 export interface IStressInversion {
     addData(data: IData | undefined): void
+    serialize(): string
     run(): Solution
 }

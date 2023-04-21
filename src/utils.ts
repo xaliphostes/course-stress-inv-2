@@ -1,5 +1,8 @@
 import { Solution } from './types'
 
+/**
+ * @category Utils
+ */
 export function displaySolution(s: Solution): void {
     console.log('Iter ', s.iteration)
     console.log('S1   ', s.S1.toFixed(3))
