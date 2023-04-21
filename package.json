@@ -6,7 +6,7 @@
     "scripts": {
         "build": "webpack",
         "run": "node example/script.js",
-        "doc": "typedoc src/ --excludePrivate --disableSources -name 'Stress inversion API' --media ./media --out dist/docs --includeVersion --hideGenerator"
+        "doc": "typedoc src/ --excludePrivate --disableSources -name 'Stress inversion 2 API' --out dist/docs --includeVersion --hideGenerator"
     },
     "keywords": [],
     "author": "fmaerten@gmail.com",
